@@ -1,1 +1,83 @@
+#popup {
+  display: none; /* label でコントロールするので input は非表示に */
+}
 
+.popup-open {
+background-color: rgba(255,255,255,.7);
+position:fixed;
+right:120px;
+bottom:10px;
+  cursor: pointer;
+width: 65px;
+    height: 65px;
+    border: solid 1px black;
+    display: block;
+text-align:center;
+border-radius:4px;
+}
+
+.popup-overlay {
+  display: none; /* input にチェックが入るまでは非表示に */
+}
+
+#popup:checked ~ .popup-overlay {
+  display: block;
+  z-index: 99999;
+  position: fixed;
+  width:0%;
+  height: 0%;
+  top: 0;
+  left: 0;
+}
+
+.popup-window {
+  width: 90vw;
+  max-width: 560px;
+  background-color: rgba(255,255,255,.9);
+  border-radius: 6px;
+border:solid 1px black;
+  position: fixed;
+    top: 190px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.popup-text {
+  margin: 0;
+}
+
+.popup-text:not(:last-of-type) {
+  margin-bottom: 1em
+}
+
+.popup-close {
+  cursor: pointer;
+  position: absolute;
+  top: -26px;
+  right: 0;
+}
+.mapcont{
+overflow: scroll;
+height: 200px;
+padding: 1px 24px 10px;
+}
+svg{
+transform: translateY(283px);
+}
+@media screen and (min-width:600px){
+.popup-open{
+display:none;
+}
+}
+
+@media screen and (max-width:600px){
+.mapcont{
+height:300px;
+}
+.popup-window{
+top: 240px;
+}
+svg{
+transform: translateY(383px);
+}
+}
