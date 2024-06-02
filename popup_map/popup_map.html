@@ -1,1 +1,41 @@
+<input type="checkbox" id="popup">
+<label class="popup-open" for="popup"><i class="fas fa-map"></i><br>
+地図</label>
+<div class="popup-overlay">
+    <div class="popup-window">
 
+<div class="tabs">
+    <input id="all" type="radio" name="tab_item" checked>
+    <label class="tab_item" for="all">全体</label>
+
+    <input id="L12goukan" type="radio" name="tab_item">
+    <label class="tab_item" for="L12goukan">講義棟</label>
+
+    <input id="design" type="radio" name="tab_item">
+    <label class="tab_item" for="design">12号館</label>
+
+    <div class="tab_content" id="all_content">
+         <div class="mapcont">
+<img src="https://www.tuat-tech-fes.com/wp-content/uploads/2024/05/皐槻祭マップ-jpg.webp">
+</div>
+    </div>
+
+    <div class="tab_content" id="L12goukan_content">
+        <div class="mapcont">
+<img src="https://www.tuat-tech-fes.com/wp-content/uploads/2024/05/講義棟_ウェブ用マップ_アートボード-1-scaled.webp">
+</div>
+</div>
+    <div class="tab_content" id="design_content">
+        <div class="mapcont"　style="overflow:none; overflow-x:scroll;height:auto;">
+<img src="https://www.tuat-tech-fes.com/wp-content/uploads/2024/05/12号館構内マップ-jpg.webp" style="display:block; margin:auto 0;max-width: 200%; height:100%;">
+</div>
+</div>
+
+        <label class="popup-close" for="popup">
+            <svg width="18" height="18" xmlns="http://www.w3.org/2000/svg">
+                <line x1="0" y1="0" x2="18" y2="18" stroke="gray" stroke-width="3"></line>
+                <line x1="0" y1="18" x2="18" y2="0" stroke="gray" stroke-width="3"></line>
+            </svg>
+        </label>
+    </div>
+</div>
