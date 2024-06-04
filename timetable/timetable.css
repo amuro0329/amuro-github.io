@@ -1,5 +1,6 @@
 .timetable{
 max-width:500px;
+margin:10px auto;
 }
 .timetable_item{
         width: 95%;
