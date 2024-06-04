@@ -1,4 +1,7 @@
-   .timetable_item{
+.timetable{
+max-width:500px;
+}
+.timetable_item{
         width: 95%;
         margin: 5px 0;
         margin-left: auto;
