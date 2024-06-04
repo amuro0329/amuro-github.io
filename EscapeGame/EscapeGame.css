@@ -1,0 +1,25 @@
+#answer{
+width:90%;
+height:fit-content;
+margin:5px auto;
+top:11%;
+background-color:rgba(255,255,255,.7);
+border:solid black 1px;
+}
+
+.btn_ans{
+display:block;
+margin:5px auto;
+font-size:x-large;
+padding:1px 5px;
+}
+
+.quest{
+display:block;
+width:95%;
+max-width:400px;
+margin:0px auto 5px;
+margin-bottom:10px;
+border:solid black 1px;
+background-color:white;
+}
