@@ -28,6 +28,11 @@ background-color:white;
     width: 45%;
    margin: 5px;
 }
+
+.item img{
+  max-width:100%;
+}
+
 @media screen and (width > 1000px){
 .item{
 width:30%;
@@ -128,6 +133,9 @@ input[value="All"]:hover+label {
     transition: all .1s ease-in;
 }
 
+.item img{
+aspect-ratio:1 / 1;
+}
 
 @media screen and (max-width:1000px){
 .item{
