@@ -1,0 +1,98 @@
+      .cls-1 {
+        fill: #0f90bf;
+        stroke: #fff;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-3 {
+        stroke-width: .25px;
+      }
+
+      .cls-5 {
+        font-size: 14.22758px;
+      }
+
+      .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-2, .cls-11, .cls-12 {
+        isolation: isolate;
+      }
+
+      .cls-5, .cls-6, .cls-8, .cls-9, .cls-10, .cls-12 {
+        font-family: BIZ-UDGothic, 'BIZ UDGothic';
+      }
+
+      .cls-6, .cls-8 {
+        font-size: 14.65562px;
+      }
+
+      .cls-13 {
+        opacity: .87;
+      }
+
+      .cls-14, .cls-15, .cls-16, .cls-17, .cls-18, .cls-19 {
+        stroke-width: 0px;
+      }
+
+      .cls-15 {
+        fill: #c8c9ca;
+      }
+
+      .cls-16 {
+        fill: none;
+      }
+
+      .cls-8 {
+        letter-spacing: .25001em;
+      }
+
+      .cls-9 {
+        letter-spacing: .24999em;
+      }
+
+      .cls-9, .cls-12 {
+        font-size: 11.97712px;
+      }
+
+      .cls-17, .cls-2, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-10 {
+        font-size: 14.69519px;
+      }
+
+      .cls-2 {
+        opacity: .8;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        stroke: #231815;
+      }
+
+      .cls-2, .cls-4 {
+        stroke-width: .5px;
+      }
+
+      .cls-18 {
+        fill: #c30d23;
+      }
+
+      .cls-11 {
+        font-family: KozGoPr6N-Light-90ms-RKSJ-H, 'Kozuka Gothic Pr6N';
+        font-size: 11.87715px;
+        font-weight: 300;
+      }
+
+      .cls-20 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-3 {
+        fill: #888;
+      }
+
+      .cls-19 {
+        fill: #4daee3;
+      }
