@@ -1,3 +1,8 @@
+      body{
+max-width:600px;
+        margin:0 auto;
+      }
+
 .timetable{
 max-width:500px;
 margin:10px auto;
