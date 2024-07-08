@@ -7,6 +7,6 @@
       <a href="https://amuro0329.github.io/amuro-github.io/">Home</a>
     </li>
     <li class="nav-list-item"><a href="https://amuro0329.github.io/amuro-github.io/timetable/timetable.html">タイムテーブル</a></li>
-    <li class="nav-list-item">その他</li>
+    <li class="nav-list-item">絞り込み</li>
   </ul>
 </header>
