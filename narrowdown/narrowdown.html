@@ -1,6 +1,160 @@
 <head>
-   <link href="narrowdown/narrowdown.css">       
+    
 </head>
+<style>
+   .grid {
+    border: solid 1px #303030;
+    border-radius: 10px;
+    display: flex;
+    max-width: 800px;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 5px;
+background-color:white;
+}
+
+.grid a {
+    display: block;
+}
+
+.search label {
+    background-color: #fff;
+}
+
+.item {
+    border-radius: 10px;
+    background: #bffdd8;
+    padding: 15px;
+    text-align: center;
+    border: #3F8D6F solid 2px;
+    width: 45%;
+   margin: 5px;
+}
+
+.item img{
+  max-width:100%;
+}
+
+@media screen and (width > 1000px){
+.item{
+width:30%;
+}
+}
+
+
+.item h2 {
+    padding: 0;
+}
+
+.item p {
+    padding: 0;
+}
+
+
+[data-category~="stage"] {
+    background-color: #bfdff4;
+    border: #14A5C0 solid 2px;
+}
+
+[data-category~="itiran"] {
+    background-color: rgb(255, 255, 255);
+    border: rgb(192, 192, 192) solid 2px;
+}
+
+[data-category~="booth"] {
+    background-color: #fbeea1;
+    border: #F5BC1E solid 2px;
+}
+
+[data-category~="satsuki"] {
+    background-color: #edf;
+    border:  #CE557D solid 2px;
+}
+
+[value="stage"]:checked~.grid .item:not([data-category~="stage"]),
+[value="gijutu"]:checked~.grid .item:not([data-category~="gijutu"]),
+[value="booth"]:checked~.grid .item:not([data-category~="booth"]),
+[value="project"]:checked~.grid .item:not([data-category~="project"]),
+[value="satsuki"]:checked~.grid .item:not([data-category~="satsuki"]) {
+    display: none;
+}
+
+[value="11"]:checked~.grid .item:not([data-category~="11"]),
+[value="12"]:checked~.grid .item:not([data-category~="12"]),
+[value="00"]:checked~.grid .item:not([data-category~="00"]),
+[value="other"]:checked~.grid .item:not([data-category~="other"]) {
+    display: none;
+}
+
+.search input {
+    display: none;
+}
+
+.search label {
+    display: inline-block;
+    width: 100px;
+    padding: 2px 10px;
+    border: solid 1px #303030;
+    margin: 2px 1px;
+text-align:center;
+}
+
+.search label:hover {
+    background-color: #303030;
+    color: #e6e6e6;
+    transition: all .1s ease-in;
+}
+
+.search input:checked+label {
+    background-color: #303030;
+    color: #e6e6e6;
+    transition: all .1s ease-in;
+}
+
+input[value="All"]:checked+label {
+    background-color: #fff;
+    color: #303030;
+    transition: all .1s ease-in;
+}
+
+input[value="Allplace"]:checked+label {
+    background-color: #fff;
+    color: #303030;
+    transition: all .1s ease-in;
+}
+
+input[value="Allplace"]:hover+label {
+    background-color: #303030;
+    color: #fff;
+    transition: all .1s ease-in;
+}
+
+input[value="All"]:hover+label {
+    background-color: #303030;
+    color: #fff;
+    transition: all .1s ease-in;
+}
+
+.item img{
+aspect-ratio:1 / 1;
+}
+
+@media screen and (max-width:1000px){
+.item{
+width:90%;
+display:grid;
+grid-template-columns:40% 60%;
+}
+.item img{
+aspect-ratio: 1/ 1;
+}
+.item p{
+width:100%;
+}
+}
+</style>
 
 <main>
 <body>
