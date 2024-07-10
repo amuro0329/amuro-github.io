@@ -16,11 +16,19 @@ function myFunction() {
       if (name == "" || gyoumu == "業務") {
         continue;
       }
+/**
+セルが結合されていると一番上にしかデータがなく、ほかはすべて空っぽ("")。
+結合されたセルに一番上のセルと同じ値を代入するために、
+業務の値を一時的に値を保管しておき(gyoumu_save)、もし一番上にない結合セル("")があった場合には
+gyoumu_saveをgyoumuに代入する。
+**/
 
+//もし、空欄のセル(結合されていて空欄になっている)があった場合は保管しておいた値を使用する。
       if (gyoumu == "") {
         gyoumu = gyoumu_save;
       } else {
         gyoumu_save = gyoumu;
+//空欄のセル出ない場合はgyoumu_saveに値を保管しておく。
       }
 
       for (let k = 2; k < lastRow_sheet2+1; k++) {
