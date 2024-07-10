@@ -32,6 +32,7 @@ gyoumu_saveをgyoumuに代入する。
       }
 
       for (let k = 2; k < lastRow_sheet2+1; k++) {
+//シート2の名前と比較して、一致する場合は該当するセルに代入する。
         let NameofShift = sheet2.getRange(k, 1).getValue();
         if (name == NameofShift) {
           sheet2.getRange(k, j + 5).setValue(gyoumu);
